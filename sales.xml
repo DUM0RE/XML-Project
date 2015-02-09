@@ -1,0 +1,21 @@
+<sales>
+<sale date="2013-12-01">
+<amount>103.28</amount>
+<paid>103.28</paid>
+<description>Sold some tubes.</description>
+<salesperson>Billy</salesperson>
+</sale>
+<sale date="2013-12-01">
+<amount>20.26</amount>
+<paid>20.26</paid>
+<description>Sold some gloves.</description>
+<salesperson>Joe</salesperson>
+</sale>
+<sale date="2013-12-01">
+<amount>10.25</amount>
+<paid>0.25</paid>
+<description>Sold a pump gasket.</description>
+<salesperson>Rick</salesperson>
+</sale>
+</sales>
+

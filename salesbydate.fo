@@ -1,0 +1,114 @@
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<fo:layout-master-set>
+<fo:simple-page-master master-name="salesbydate" page-width="8.5in" page-height="11in">
+<fo:region-body margin="1in" />
+<fo:region-before extent="20mm" />
+<fo:region-after extent="20mm" />
+</fo:simple-page-master>
+</fo:layout-master-set>
+<fo:page-sequence master-reference="salesbydate">
+<fo:flow flow-name="xsl-region-body">
+<fo:block text-align="center">
+<fo:table table-layout="fixed">
+<fo:table-column column-width="25mm" />
+<fo:table-column column-width="25mm" />
+<fo:table-column column-width="25mm" />
+<fo:table-column column-width="50mm" />
+<fo:table-column column-width="30mm" />
+<fo:table-header>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block font-weight="bold">Date</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block font-weight="bold">Amount</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block font-weight="bold">Paid</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block font-weight="bold">Description</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block font-weight="bold">Salesperson</fo:block>
+</fo:table-cell>
+</fo:table-header>
+<fo:table-body>
+<fo:table-row>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>2013-12-01</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>
+												$10.25</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>
+												$0.25</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>Sold a pump gasket.</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>Rick</fo:block>
+</fo:table-cell>
+</fo:table-row>
+<fo:table-row>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>2013-12-01</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>
+												$20.26</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>
+												$20.26</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>Sold some gloves.</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>Joe</fo:block>
+</fo:table-cell>
+</fo:table-row>
+<fo:table-row>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>2013-12-01</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>
+												$103.28</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>
+												$103.28</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>Sold some tubes.</fo:block>
+</fo:table-cell>
+<fo:table-cell padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block>Billy</fo:block>
+</fo:table-cell>
+</fo:table-row>
+<fo:table-row>
+<fo:table-cell number-columns-spanned="5" padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block font-weight="bold">Number of sales: 3</fo:block>
+</fo:table-cell>
+</fo:table-row>
+<fo:table-row>
+<fo:table-cell number-columns-spanned="5" padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block font-weight="bold">Total sales: $133.79</fo:block>
+</fo:table-cell>
+</fo:table-row>
+<fo:table-row>
+<fo:table-cell number-columns-spanned="5" padding-left="2mm" padding-right="2mm" padding-top="2mm" padding-bottom="2mm" border-style="solid">
+<fo:block font-weight="bold">Average sale: $44.60</fo:block>
+</fo:table-cell>
+</fo:table-row>
+</fo:table-body>
+</fo:table>
+</fo:block>
+</fo:flow>
+</fo:page-sequence>
+</fo:root>
+

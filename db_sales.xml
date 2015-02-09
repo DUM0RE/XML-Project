@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+    - Database: 'xml_project'
+    -->
+    <database name="xml_project">
+        <!-- Table sale -->
+        <table name="sale">
+            <column name="sale_id">1</column>
+            <column name="date">2013-12-01</column>
+            <column name="amount">103.28</column>
+            <column name="paid">103.28</column>
+            <column name="description">Sold some tubes.</column>
+            <column name="salesperson">Billy</column>
+        </table>
+        <table name="sale">
+            <column name="sale_id">2</column>
+            <column name="date">2013-12-01</column>
+            <column name="amount">20.26</column>
+            <column name="paid">20.26</column>
+            <column name="description">Sold some gloves.</column>
+            <column name="salesperson">Joe</column>
+        </table>
+        <table name="sale">
+            <column name="sale_id">3</column>
+            <column name="date">2013-12-01</column>
+            <column name="amount">10.25</column>
+            <column name="paid">0.25</column>
+            <column name="description">Sold a pump gasket.</column>
+            <column name="salesperson">Rick</column>
+        </table>
+    </database>

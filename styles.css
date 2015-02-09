@@ -1,0 +1,43 @@
+table
+{
+	text-align: center;
+}
+
+.money
+{
+	text-align: right;
+}
+
+tr:nth-child(even)
+{
+	background-color: rgb(200,200,255);
+}
+
+tr:nth-child(odd)
+{
+	background-color: rgb(255,200,200);
+}
+
+td, th
+{
+	padding: 5px;
+	border: 1px solid black;
+	margin: 0;
+}
+
+th, thead, tfoot
+{
+	background-color: rgb(200,230,200);
+	font-family: arial;
+}
+
+thead th
+{
+	text-decoration: underline;
+}
+
+caption
+{
+	font-size: 16pt;
+	font-weight: bold;
+}
